@@ -18,7 +18,7 @@ plot(
   data.loaded$Voltage,
   type = "l",
   xlab = "datetime",
-  ylab = "Global Active Power"
+  ylab = "Voltage"
 )
 plot(
   data.loaded$Time,
@@ -47,6 +47,6 @@ plot(
   data.loaded$Global_reactive_power,
   type = "l",
   xlab = "datetime",
-  ylab = "Global Active Power"
+  ylab = "Global_reactive_power"
 )
 dev.off()
